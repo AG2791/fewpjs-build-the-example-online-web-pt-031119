@@ -13,6 +13,7 @@ function like(e) {
     heart.style.color = colorState[heart.style.color];
   })
   
+<<<<<<< HEAD
   .catch (function(error) {
     document.getElementById('modal').className = "";
   });
@@ -20,6 +21,11 @@ function like(e) {
  for (const gly of hearts) {
    glyp.addEventListner("click", likecallback);
  }
+=======
+  
+}
+
+>>>>>>> 72f232886f5103ce0441130f87839cd3af350b8f
 
 
 
